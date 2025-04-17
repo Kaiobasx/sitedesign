@@ -1,36 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Studio Beleza - Login</title>
   <link rel="stylesheet" href="Teste.css">
 </head>
+
 <body>
-    <nav>
-        <a href="ahome.html"><img src="logo.png" alt="Logo" /></a>
-        <a href="bcadastro.html">CADASTRE-SE</a>
-        <a href="ahome.html#serviço">SERVIÇOS</a>
-        <a href="clogin.html">LOGIN</a>
-        <a href="https://wa.me/5511975220906">CONTATO</a>
-      </nav>
-  
-  <!-- Título da página com margem para compensar a navbar fixa -->
+  <nav>
+    <a href="ahome.html"><img src="logo.png" alt="Logo" /></a>
+    <a href="bcadastro.html">CADASTRE-SE</a>
+    <a href="ahome.html#serviço">SERVIÇOS</a>
+    <a href="clogin.html">LOGIN</a>
+    <a href="https://wa.me/5511975220906?text=Olá,%20gostaria%20de%20agendar%20um%20horário" target="_blank">CONTATO</a>
+  </nav>
+
   <h1 class="page-title">Login</h1>
-  
+
   <form class="login-container">
     <label for="Usuario">Usuário</label>
     <input type="text" id="Usuario" name="Usuario">
-    
+
     <label for="Senha">Senha</label>
     <input type="password" id="Senha" name="Senha">
-    
+
     <button type="button" onclick="verificacaoLogin()">Entrar</button>
     <p id="mensagemErro"></p>
   </form>
-  
+
   <p class="cadastro-link"><a href="bcadastro.html">Não tem uma conta? Cadastre-se!</a></p>
-  
+
   <script src="script.js"></script>
+  <div id="clima-discreto"></div>
+
+  <section class="sobre">
+    <h2>Sobre Nossa Beleza</h2>
+    <p>Escolha o serviço e garanta seu horário com nossa profissional!</p>
+  </section>
+  <footer>
+    <p>© 2024 Studio Beleza - Todos os direitos reservados</p>
+  </footer>
 </body>
+
 </html>
