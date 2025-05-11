@@ -99,7 +99,7 @@ nav a:hover {
 .sobre {
     background-color: var(--background-color);
     padding: 4rem 2rem;
-    text-align: center; /* Centraliza o texto */
+    text-align: center;
 }
 
 .sobre h2 {
@@ -128,7 +128,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    flex-wrap: wrap; /* Permite que os cards se reorganizem quando necessário */
+    flex-wrap: wrap;
 }
 
 .card {
@@ -142,7 +142,7 @@ footer {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s, box-shadow 0.3s;
     text-align: center;
-    margin: 0 auto; /* Garante que os cards fiquem centralizados */
+    margin: 0 auto;
 }
 
 .card h3 {
@@ -292,6 +292,7 @@ footer {
         margin: 0 auto;
     }
 }
+
 .page-title {
     text-align: center;
     margin-top: 100px;
@@ -302,14 +303,14 @@ h3 {
     text-align: center;
     margin: 20px auto;
     font-size: 1.2rem;
-    max-width: 800px; 
+    max-width: 800px;
 }
 
 p {
     text-align: center;
     font-size: 1.1rem;
     margin-bottom: 30px;
-    max-width: 800px; 
+    max-width: 800px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -320,8 +321,8 @@ p {
     justify-content: center;
     align-items: center;
     padding: 2rem;
-    flex-wrap: wrap; 
-    text-align: center; 
+    flex-wrap: wrap;
+    text-align: center;
 }
 
 .card {
@@ -338,3 +339,22 @@ p {
     margin: 0 auto;
 }
 
+ul {
+    list-style-type: none;
+    /* Remove as bolinhas das listas */
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+
+.social-media img {
+    width: 45px;
+    /* Define um tamanho fixo para os ícones */
+    height: 35px;
+    /* Garante que todos os ícones tenham a mesma altura */
+    margin: 0 10px;
+}
