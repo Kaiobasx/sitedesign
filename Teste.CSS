@@ -341,20 +341,44 @@ p {
 
 ul {
     list-style-type: none;
-    /* Remove as bolinhas das listas */
     padding: 0;
 }
 
 a {
     text-decoration: none;
-    /* Remove o sublinhado dos links */
 }
 
 
 .social-media img {
     width: 45px;
-    /* Define um tamanho fixo para os ícones */
     height: 35px;
-    /* Garante que todos os ícones tenham a mesma altura */
     margin: 0 10px;
+}
+.redes-sociais {
+  background-color: var(--background-color);
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+.redes-sociais h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-media a img {
+  width: 45px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+  transform: scale(1.1);
 }
