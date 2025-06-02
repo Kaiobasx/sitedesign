@@ -28,7 +28,7 @@ function cadastrarUsuario() {
     localStorage.setItem('usuarios', JSON.stringify(usuarios));
 
     alert('Usuário cadastrado com sucesso!');
-    window.location.href = 'ahome.html';
+    window.location.href = 'index.html';
 }
 
 function verificacaoLogin() {
@@ -43,7 +43,7 @@ function verificacaoLogin() {
     if (usuarioValido) {
         alert('Login realizado com sucesso!');
         mensagemErro.textContent = '';
-        window.location.href = 'ahome.html';
+        window.location.href = 'index.html';
     } else {
         alert('Usuário ou senha inválidos!');
         mensagemErro.textContent = 'Usuário ou senha incorretos!';
